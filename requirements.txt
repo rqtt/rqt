@@ -1,0 +1,11 @@
+PySide6>=6.6
+pyqtgraph>=0.13.4
+numpy>=1.24
+psutil>=5.9
+
+# NVIDIA GPU stats (safe to install even without an NVIDIA card)
+nvidia-ml-py>=12.535
+
+# Windows only: read temperatures/fans from LibreHardwareMonitor
+pywin32>=306; sys_platform == "win32"
+WMI>=1.5.1; sys_platform == "win32"
